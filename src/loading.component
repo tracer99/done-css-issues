@@ -1,0 +1,9 @@
+<can-component tag="loading-indicator" leak-scope>
+  <view>
+    {{#isResolved}}
+      <content></content>
+    {{else}}
+			Loading...
+    {{/isResolved}}
+  </view>
+</can-component>
